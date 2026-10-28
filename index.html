@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>نُـخْـبَة | المنظومة الفاخرة للقطاعات السيادية العشرة • أ. طارق ابوعشي</title>
+  <meta name="description" content="منظومة حصرية متكاملة تجمع القطاعات السيادية الفاخرة: الهايبركار، الساعات الميكانيكية، اليخوت، الخيل العربية، الألماس، الصقور، البشوت الحساوية، مائدة الشيف، الطيران الخاص، والعقارات السيادية." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>" />
+
+  <!-- Fonts: Amiri, Plus Jakarta Sans, Scheherazade New, Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Scheherazade+New:wght@600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script type="module" crossorigin src="./assets/index-CkviXrju.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BlvxZ6sS.css">
+</head>
+<body class="theme-dark">
+  <!-- Interactive Stardust / Constellation Background Canvas -->
+  <canvas id="bg-canvas" class="background-canvas"></canvas>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow glow-top-gold"></div>
+  <div class="ambient-glow glow-center-emerald"></div>
+
+  <!-- Header / Sovereign Top Navigation -->
+  <header class="sovereign-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <div class="brand-crest">
+          <i class="fa-solid fa-crown"></i>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-name" data-i18n="brand_title">نُـخْـبَة</h1>
+          <span class="brand-subline" data-i18n="brand_sub">المنظومة الفاخرة للقطاعات السيادية العشرة</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="sovereign-tag" data-i18n="sovereign_badge">
+          المملكة العربية السعودية 🇸🇦 • منصة سيادية خاصة
+        </div>
+
+        <button id="theme-toggle-btn" class="nav-icon-btn" title="Toggle Theme">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+
+        <button id="sound-toggle-btn" class="nav-icon-btn" title="Toggle Interactive Sound">
+          <i class="fa-solid fa-volume-high"></i>
+        </button>
+
+        <button id="lang-toggle-btn" class="lang-btn">
+          English
+        </button>
+
+        <button id="vault-drawer-btn" class="vault-btn">
+          <i class="fa-solid fa-vault"></i>
+          <span data-i18n="nav_vault">الحقيبة السيادية</span>
+          <span id="vault-badge" class="badge-count" style="display: none;">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sector Floating Navigation Dock -->
+  <nav class="sectors-dock" aria-label="Sectors Quick Jump">
+    <a href="#sector-mithmar" class="dock-pill" title="01. مضمار (هايبركار)"><span>01</span> مِـضْـمار</a>
+    <a href="#sector-miqat" class="dock-pill" title="02. ميقات (ساعات)"><span>02</span> مِـيقات</a>
+    <a href="#sector-sanbouk" class="dock-pill" title="03. سنبوق (يخوت)"><span>03</span> سُـنْـبوق</a>
+    <a href="#sector-aseel" class="dock-pill" title="04. أصيل (خيل)"><span>04</span> أَصِـيل</a>
+    <a href="#sector-zumurrud" class="dock-pill" title="05. زمرد (ألماس)"><span>05</span> زُمُـرّد</a>
+    <a href="#sector-shaheen" class="dock-pill" title="06. شاهين (صقور)"><span>06</span> شَـاهين</a>
+    <a href="#sector-qassab" class="dock-pill" title="07. قصاب (بشوت)"><span>07</span> قَصّاب</a>
+    <a href="#sector-maaedah" class="dock-pill" title="08. مائدة (طهي)"><span>08</span> مَـائـدة</a>
+    <a href="#sector-atheer" class="dock-pill" title="09. أثير (طيران)"><span>09</span> أَثِـير</a>
+    <a href="#sector-iwan" class="dock-pill" title="10. إيوان (عقارات)"><span>10</span> إِيـوان</a>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <div class="hero-badge hero-reveal">
+          <i class="fa-solid fa-gem"></i>
+          <span data-i18n="hero_eyebrow">قمة الترف السيادي والامتياز الحصري</span>
+        </div>
+
+        <h2 class="hero-title hero-reveal" data-i18n="hero_headline">
+          عشرة قطاعات سيادية.. تُدار بأعلى معايير الإتقان والفخامة المطلقة
+        </h2>
+
+        <p class="hero-description hero-reveal" data-i18n="hero_desc">
+          منظومة حصرية متكاملة تجمع هندسة الهايبركار، وساعات الكرونومتر الميكانيكية، ويخوت البحر الأحمر، وخيول الأنساب العربية، والألماس الحر، وصقور القنص، وبشوت الزري الحساوية، ومائدة الشيف الملكية، والطيران الخاص، والعقارات السيادية.
+        </p>
+
+        <div class="hero-cta-group hero-reveal">
+          <button id="hero-explore-btn" class="btn-royal-gold">
+            <span data-i18n="hero_cta_explore">استكشاف القطاعات السيادية</span>
+            <i class="fa-solid fa-arrow-down"></i>
+          </button>
+          <button id="hero-vault-btn" class="btn-glass-vault">
+            <i class="fa-solid fa-vault"></i>
+            <span data-i18n="hero_cta_vault">فتح الخزينة السيادية</span>
+          </button>
+        </div>
+
+        <!-- Master Counter Stats -->
+        <div class="hero-stats-grid hero-reveal">
+          <div class="stat-card">
+            <div class="stat-num" data-i18n="stat_sectors_num">10</div>
+            <div class="stat-lbl" data-i18n="stat_sectors_lbl">قطاعات سيادية متكاملة</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" data-i18n="stat_bespoke_num">100%</div>
+            <div class="stat-lbl" data-i18n="stat_bespoke_lbl">حسابات وتخصيصات تفاعلية حية</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" data-i18n="stat_prestige_num">24K</div>
+            <div class="stat-lbl" data-i18n="stat_prestige_lbl">معايير الفخامة الخالصة</div>
+          </div>
+        </div>
+
+        <!-- Author / Architect Accreditation -->
+        <div class="architect-card hero-reveal">
+          <div class="architect-badge">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span data-i18n="lead_architect">المطور والمهندس المعماري: أ. طارق ابوعشي</span>
+          </div>
+          <div class="architect-sub" data-i18n="creator_tag">
+            تصميم وتنفيذ وتطوير: أ. طارق ابوعشي
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 1: MITHMAR HYPERCAR ATELIER -->
+    <section id="sector-mithmar" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">01</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">مِـضْـمار <span class="sector-en">MITHMAR</span></h3>
+          <p class="sector-tagline" data-i18n="m_dyno_title">محترف الهايبركار واختبار الداينو</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Dyno Simulator Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-gauge-high"></i> <span data-i18n="m_dyno_title">مختبر اختبار القدرة والعزم (Dyno Simulator)</span></h4>
+            <span class="live-tag">LIVE DYNO</span>
+          </div>
+
+          <div class="dyno-canvas-wrap">
+            <canvas id="mithmar-dyno-canvas" width="460" height="220"></canvas>
+            <div class="dyno-legend">
+              <span class="legend-hp"><i class="fa-solid fa-circle"></i> HP (Cyan)</span>
+              <span class="legend-torque"><i class="fa-solid fa-circle"></i> Torque Nm (Amber)</span>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label-row">
+              <span data-i18n="m_rpm_slider">معدل دورات المحرك (RPM)</span>
+              <span id="mithmar-rpm-display" class="highlight-val">4,200 RPM</span>
+            </div>
+            <input id="mithmar-rpm-slider" type="range" min="1000" max="9000" step="100" value="4200" class="luxury-slider" />
+          </div>
+
+          <!-- Telemetry Numbers -->
+          <div class="telemetry-grid">
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="m_hp_label">القدرة الصافية</span>
+              <span id="mithmar-hp-val" class="tel-val cyan">920 BHP</span>
+            </div>
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="m_torque_label">عزم الدوران</span>
+              <span id="mithmar-torque-val" class="tel-val gold">860 Nm</span>
+            </div>
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="m_accel_label">التسارع 0-100</span>
+              <span id="mithmar-accel-val" class="tel-val">2.7 s</span>
+            </div>
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="m_speed_label">السرعة القصوى</span>
+              <span id="mithmar-speed-val" class="tel-val">395 km/h</span>
+            </div>
+          </div>
+
+          <!-- Procedural Rev Sound Trigger Button -->
+          <div class="rev-trigger-wrap">
+            <button id="mithmar-rev-btn" class="btn-rev-engine">
+              <i class="fa-solid fa-volume-high"></i>
+              <span data-i18n="m_rev_btn">ضغط دواسة الوقود وتوليد صوت V12 🔊</span>
+            </button>
+            <span class="hint-text" data-i18n="m_rev_hint">اضغط واستمر بالضغط لسماع زئير المحرك وافلت لسماع فرقعة العادم!</span>
+          </div>
+        </div>
+
+        <!-- Hypercar Silhouette & Customizer Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-car-side"></i> <span data-i18n="m_config_title">تخصيص هيكل الهايبركار وألياف الكربون</span></h4>
+          </div>
+
+          <!-- Visual Car Silhouette SVG -->
+          <div class="car-visual-container">
+            <svg id="mithmar-car-svg" viewBox="0 0 500 180" class="car-svg">
+              <!-- Active Wing -->
+              <path id="car-wing-path" d="M 60,70 L 95,66 L 98,72 L 62,75 Z" fill="#f59e0b" />
+              <!-- Aerodynamic Body -->
+              <path id="car-body-path" d="M 50,120 Q 90,85 160,78 Q 230,70 330,85 Q 420,95 460,125 Q 430,135 390,135 Q 360,110 330,110 Q 300,110 270,135 L 180,135 Q 150,110 120,110 Q 90,110 60,135 Z" fill="#0a0a0c" stroke="#f59e0b" stroke-width="1" />
+              <!-- Cockpit Glass Canopy -->
+              <path d="M 180,80 Q 240,68 300,75 L 290,92 Q 230,85 170,92 Z" fill="#00f0ff" opacity="0.45" />
+              <!-- Rear Wheel -->
+              <circle id="car-wheel-rear" cx="120" cy="135" r="26" fill="#18181b" stroke="#f59e0b" stroke-width="3" />
+              <!-- Front Wheel -->
+              <circle id="car-wheel-front" cx="330" cy="135" r="26" fill="#18181b" stroke="#f59e0b" stroke-width="3" />
+            </svg>
+          </div>
+
+          <!-- Controls -->
+          <div class="card-inputs-grid">
+            <div class="input-item">
+              <label data-i18n="m_model_select">طراز الهايبركار</label>
+              <select id="mithmar-model-select" class="luxury-select">
+                <option value="Thuraya-V12">Thuraya V12 (12,500,000 SAR)</option>
+                <option value="Sahra-GT">Sahra GT (9,800,000 SAR)</option>
+                <option value="Najd-Aero">Najd Aero Extreme (14,200,000 SAR)</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="m_carbon_select">حزمة ألياف الكربون</label>
+              <select id="mithmar-carbon-select" class="luxury-select">
+                <option value="exposed-twill">Exposed Twill Carbon Weave</option>
+                <option value="forged-composite">Forged Composite Carbon</option>
+                <option value="standard">Standard Light Carbon</option>
+              </select>
+            </div>
+
+            <div class="input-item full-width">
+              <label data-i18n="m_paint_select">طلاء الهيكل الحصري</label>
+              <div class="paint-palette">
+                <button class="mithmar-paint-btn active" data-hex="#0a0a0c" data-name-ar="أسود الثريا البركاني" data-name-en="Obsidian Black Gloss" style="background: #0a0a0c;" title="Obsidian Black"></button>
+                <button class="mithmar-paint-btn" data-hex="#d97706" data-name-ar="ذهب 24 قيراط سائل" data-name-en="Liquid 24K Gold" style="background: #d97706;" title="Liquid Gold"></button>
+                <button class="mithmar-paint-btn" data-hex="#047857" data-name-ar="أخضر نجد الزمردي" data-name-en="Najd Emerald Green" style="background: #047857;" title="Najd Emerald"></button>
+                <button class="mithmar-paint-btn" data-hex="#475569" data-name-ar="رمادي التيتانيوم الفضائي" data-name-en="Titanium Grey" style="background: #475569;" title="Titanium Grey"></button>
+                <button class="mithmar-paint-btn" data-hex="#78350f" data-name-ar="عسلي الكثبان الذهبية" data-name-en="Desert Amber Dunes" style="background: #78350f;" title="Dune Amber"></button>
+              </div>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="m_wheels_select">جنوط المغنيسيوم والمكابح</label>
+              <select id="mithmar-wheels-select" class="luxury-select">
+                <option value="forged-gold-22">22" Forged Monoblock 24K Gold</option>
+                <option value="aero-blade-carbon">21" Aero-Blade Carbon Turbine</option>
+                <option value="monoblock-21">21" Titanium Satin Silver</option>
+              </select>
+            </div>
+
+            <div class="input-item checkbox-wrap">
+              <label class="switch-container">
+                <input id="mithmar-aero-toggle" type="checkbox" checked />
+                <span class="switch-slider"></span>
+              </label>
+              <span data-i18n="m_aero_toggle">جناح خلفي هوائي تفاعلي (Active Aero Wing)</span>
+            </div>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Estimated Build</span>
+              <span id="mithmar-price-val" class="action-price">13,700,000 SAR</span>
+            </div>
+            <button id="mithmar-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="btn_add_to_vault">إضافة إلى الحقيبة السيادية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 2: MIQAT HAUTE HORLOGERIE -->
+    <section id="sector-miqat" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">02</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">مِـيقات <span class="sector-en">MIQAT</span></h3>
+          <p class="sector-tagline" data-i18n="mq_canvas_title">دار الساعات الميكانيكية الراقية ومحاكاة الميزان</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Mechanical Escapement Canvas Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-clock"></i> <span data-i18n="mq_canvas_title">محاكاة ميزان الساعة الميكانيكي الحي (4Hz Escapement)</span></h4>
+            <button id="miqat-tick-sound-btn" class="sound-chip" title="Toggle mechanical sound">
+              <i class="fa-solid fa-volume-high"></i> Tick Sound
+            </button>
+          </div>
+
+          <div class="canvas-center-wrap">
+            <canvas id="miqat-escapement-canvas" width="340" height="300"></canvas>
+          </div>
+          <p class="canvas-caption" data-i18n="mq_canvas_hint">تذبذب عجلة التوازن والشعرية ونقرات الميزان السويسري بدقة 28,800 ذبذبة/ساعة</p>
+
+          <!-- COSC Telemetry Card -->
+          <div class="cosc-telemetry-box">
+            <div class="cosc-head">
+              <i class="fa-solid fa-certificate"></i>
+              <span data-i18n="mq_cosc_title">محلل دقة الكرونومتر المعتمد (COSC Telemetry)</span>
+            </div>
+            <div class="cosc-grid">
+              <div class="cosc-cell"><span>Dial Up</span><strong>+0.8 s/d</strong></div>
+              <div class="cosc-cell"><span>Dial Down</span><strong>-0.4 s/d</strong></div>
+              <div class="cosc-cell"><span>Crown Up</span><strong>+1.2 s/d</strong></div>
+              <div class="cosc-cell"><span>Crown Down</span><strong>-0.2 s/d</strong></div>
+              <div class="cosc-cell"><span>Delta Max</span><strong class="cyan">1.6 s/d</strong></div>
+            </div>
+            <div class="cosc-badge-pass">
+              <i class="fa-solid fa-check-double"></i> COSC Certified Chronometer (Passed: -4 to +6 s/day)
+            </div>
+          </div>
+        </div>
+
+        <!-- Bespoke Watch Builder Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-screwdriver-wrench"></i> <span data-i18n="mq_builder_title">تفصيل ساعة الكرونومتر السيادية</span></h4>
+          </div>
+
+          <div class="card-inputs-grid">
+            <div class="input-item">
+              <label data-i18n="mq_caliber_lbl">العيار الميكانيكي والتعقيد</label>
+              <select id="miqat-caliber-select" class="luxury-select">
+                <option value="Calibre-9150-Tourbillon">Calibre 9150 Flying Tourbillon 60s</option>
+                <option value="Calibre-700-Perpetual">Calibre 700 Perpetual Calendar</option>
+                <option value="Calibre-330-Chronometer">Calibre 330 High-Beat Chronometer</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="mq_case_lbl">معدن العلبة الفاخر</label>
+              <select id="miqat-case-select" class="luxury-select">
+                <option value="Platinum-950">Platinum 950 Solid Block</option>
+                <option value="Rose-Gold-18k">18K 4N Sovereign Rose Gold</option>
+                <option value="Titanium-Grade-5">Grade 5 Brushed Titanium</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="mq_dial_lbl">نمط وخامة الميناء</label>
+              <select id="miqat-dial-select" class="luxury-select">
+                <option value="Muonionalusta-Meteorite">Genuine Muonionalusta Meteorite</option>
+                <option value="Clous-de-Paris">Hand-Guilloché Clous de Paris</option>
+                <option value="Sunburst-Obsidian">Deep Obsidian Sunburst Black</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="mq_strap_lbl">السوار والإبزيم</label>
+              <select id="miqat-strap-select" class="luxury-select">
+                <option value="Alligator-Black">Hand-Stitched Mississippi Alligator</option>
+                <option value="Titanium-Bracelet">Integrated Platinum / Titanium Link</option>
+                <option value="Sovereign-Gold-Mesh">Sovereign 18K Gold Milanese Mesh</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="horology-visual-badge">
+            <div class="spec-bullet"><i class="fa-solid fa-gem"></i> 33 Jewels (Synthetic Rubies)</div>
+            <div class="spec-bullet"><i class="fa-solid fa-battery-full"></i> 72-Hour Power Reserve</div>
+            <div class="spec-bullet"><i class="fa-solid fa-water"></i> 100m Water Resistance</div>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Masterpiece Value</span>
+              <span id="miqat-price-val" class="action-price">2,480,000 SAR</span>
+            </div>
+            <button id="miqat-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="btn_add_to_vault">إضافة إلى الحقيبة السيادية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 3: SANBOUK SUPERYACHT CHARTER -->
+    <section id="sector-sanbouk" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">03</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">سُـنْـبوق <span class="sector-en">SANBOUK</span></h3>
+          <p class="sector-tagline" data-i18n="sb_route_title">أسطول اليخوت السوبر وملاحة البحر الأحمر</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Interactive Red Sea Route Map Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-compass"></i> <span data-i18n="sb_route_title">مخطط رحلات البحر الأحمر الاستكشافية</span></h4>
+            <span class="live-tag">AIS ACTIVE</span>
+          </div>
+
+          <div class="map-canvas-container">
+            <canvas id="sanbouk-map-canvas" width="400" height="400"></canvas>
+          </div>
+
+          <div class="ports-quick-list">
+            <span><i class="fa-solid fa-location-dot" style="color: #f59e0b;"></i> Sindalah (NEOM)</span>
+            <span><i class="fa-solid fa-location-dot" style="color: #38bdf8;"></i> Umluj</span>
+            <span><i class="fa-solid fa-location-dot" style="color: #38bdf8;"></i> Yanbu</span>
+            <span><i class="fa-solid fa-location-dot" style="color: #38bdf8;"></i> Jeddah</span>
+            <span><i class="fa-solid fa-location-dot" style="color: #38bdf8;"></i> Farasan</span>
+          </div>
+        </div>
+
+        <!-- Charter Agreement & Cost Calculator Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-anchor"></i> <span data-i18n="sb_total_calc">إجمالي استئجار اليخت والرسوم</span></h4>
+          </div>
+
+          <div class="card-inputs-grid">
+            <div class="input-item">
+              <label data-i18n="sb_from_lbl">ميناء الانطلاق</label>
+              <select id="sanbouk-from-select" class="luxury-select">
+                <option value="jeddah">Jeddah Yacht Club & Marina</option>
+                <option value="yanbu">Yanbu Royal Marina</option>
+                <option value="umluj">Umluj Archipelago</option>
+                <option value="sindalah">Sindalah Island (NEOM)</option>
+                <option value="farasan">Farasan Islands Marine Reserve</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="sb_to_lbl">وجهة الرسو الفاخرة</label>
+              <select id="sanbouk-to-select" class="luxury-select">
+                <option value="sindalah">Sindalah Island (NEOM)</option>
+                <option value="umluj">Umluj Archipelago</option>
+                <option value="yanbu">Yanbu Royal Marina</option>
+                <option value="jeddah">Jeddah Yacht Club & Marina</option>
+                <option value="farasan">Farasan Islands Marine Reserve</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="sb_yacht_lbl">فئة اليخت السوبر</label>
+              <select id="sanbouk-yacht-select" class="luxury-select">
+                <option value="Sultan-85m">Sultan 85m (Helipad, Beach Club, Submersible)</option>
+                <option value="Sindalah-65m">Sindalah 65m Explorer</option>
+                <option value="Al-Bahr-52m">Al-Bahr 52m Performance Cruiser</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="sb_catering_lbl">باقة الضيافة الملكية</label>
+              <select id="sanbouk-catering-select" class="luxury-select">
+                <option value="Royal-Chef">Private Royal Executive Chef (Caviar & Seafood)</option>
+                <option value="Michelin-Sea">Michelin-Trained Sea Gastronomy</option>
+                <option value="Bespoke-Gourmet">Bespoke Mediterranean Gourmet</option>
+              </select>
+            </div>
+
+            <div class="input-item full-width">
+              <div class="control-label-row">
+                <span data-i18n="sb_days_lbl">مدة الرحلة (أيام)</span>
+                <span id="sanbouk-days-val" class="highlight-val">7 Days</span>
+              </div>
+              <input id="sanbouk-days-slider" type="range" min="3" max="30" step="1" value="7" class="luxury-slider" />
+            </div>
+          </div>
+
+          <!-- Calculated Telemetry -->
+          <div class="telemetry-grid">
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="sb_miles_calc">المسافة البحرية</span>
+              <span id="sanbouk-miles-val" class="tel-val cyan">480 NM</span>
+            </div>
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="sb_fuel_calc">استهلاك الوقود</span>
+              <span id="sanbouk-fuel-val" class="tel-val gold">18,500 L</span>
+            </div>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Total Charter</span>
+              <span id="sanbouk-total-val" class="action-price">2,280,000 SAR</span>
+            </div>
+            <button id="sanbouk-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="btn_add_to_vault">إضافة إلى الحقيبة السيادية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 4: ASEEL ROYAL ARABIAN STUD & AUCTION -->
+    <section id="sector-aseel" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">04</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">أَصِـيل <span class="sector-en">ASEEL</span></h3>
+          <p class="sector-tagline" data-i18n="as_auction_title">مركاض الخيل العربية والمزاد السيادي الحي</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Live Auction Ring Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-gavel"></i> <span data-i18n="as_auction_title">المزاد السيادي المباشر للخيل العربية</span></h4>
+            <div class="auction-timer-badge">
+              <i class="fa-regular fa-clock"></i> <span id="aseel-timer-val">01:28</span>
+            </div>
+          </div>
+
+          <div class="auction-ring-display">
+            <div class="horse-avatar">
+              <i class="fa-solid fa-chess-knight"></i>
+            </div>
+            <div class="auction-horse-info">
+              <h4 id="aseel-horse-name" class="horse-title">نجمة الثريا الملكية</h4>
+              <div class="horse-microchip">Microchip: SA-982-0091-8842</div>
+            </div>
+          </div>
+
+          <div class="auction-metrics-row">
+            <div class="metric-block">
+              <span class="m-lbl" data-i18n="as_current_bid">أعلى مزايدة حالية</span>
+              <span id="aseel-bid-val" class="m-val gold">2,650,000 SAR</span>
+            </div>
+            <div class="metric-block">
+              <span class="m-lbl" data-i18n="as_bid_count">إجمالي المزايدات</span>
+              <span id="aseel-count-val" class="m-val cyan">14</span>
+            </div>
+          </div>
+
+          <div id="aseel-bidder-lead" class="bidder-banner">
+            المزايدة القيادية: مربط الدرعية الملكي
+          </div>
+
+          <button id="aseel-bid-btn" class="btn-royal-bid">
+            <i class="fa-solid fa-gavel"></i> <span data-i18n="as_place_bid_btn">رفع المزايدة السيادية (+50,000 ر.س)</span>
+          </button>
+        </div>
+
+        <!-- Pedigree Lineage Tree Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-sitemap"></i> <span data-i18n="as_pedigree_title">شجرة الأنساب الملكية لأرسان الخيل</span></h4>
+          </div>
+
+          <div class="control-group">
+            <label data-i18n="as_strain_lbl">الرسن العربي الأصيل</label>
+            <select id="aseel-strain-select" class="luxury-select">
+              <option value="Saklawi">صقلاوي (Saklawi - الجمال والرشاقة الملكية)</option>
+              <option value="Kehilan">كحيلان (Kehilan - القوة والتحمل والبسالة)</option>
+              <option value="Abeyyan">عبيان (Abeyyan - الشموخ والرفعة والشجاعة)</option>
+              <option value="Hadban">هدبان (Hadban - السرعة وطيب الخصال)</option>
+            </select>
+          </div>
+
+          <!-- Tree Visualizer Container -->
+          <div id="aseel-pedigree-tree" class="pedigree-tree-container">
+            <!-- Populated dynamically by TypeScript -->
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Certified Valuation</span>
+              <span class="action-price">2,650,000 SAR</span>
+            </div>
+            <button id="aseel-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-certificate"></i> <span data-i18n="as_cert_btn">شهادة النسب والجينات الوراثية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 5: ZUMURRUD HAUTE JOAILLERIE & DIAMONDS -->
+    <section id="sector-zumurrud" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">05</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">زُمُـرّد <span class="sector-en">ZUMURRUD</span></h3>
+          <p class="sector-tagline" data-i18n="zm_matrix_title">خزينة الألماس الحر وانكسار الضوء الطيفي</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Prismatic Light Dispersion Canvas Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-gem"></i> <span data-i18n="zm_canvas_title">محاكي انكسار وتشتت الضوء الطيفي (Dispersion)</span></h4>
+            <span class="live-tag">57 FACETS</span>
+          </div>
+
+          <div class="canvas-center-wrap">
+            <canvas id="zumurrud-dispersion-canvas" width="340" height="280"></canvas>
+          </div>
+          <p class="canvas-caption">مرر المؤشر فوق الألماسة لرؤية تشتت أشعة قوس قزح القزحية وانعكاسات البريليانت</p>
+
+          <div class="gia-verification-seal">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>GIA Verified & Laser Inscribed • Investment Grade Flawless</span>
+          </div>
+        </div>
+
+        <!-- The 4Cs Matrix & Setting Builder Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-sliders"></i> <span data-i18n="zm_matrix_title">مصفوفة معايير الألماس الأربعة (4Cs)</span></h4>
+          </div>
+
+          <div class="card-inputs-grid">
+            <div class="input-item full-width">
+              <div class="control-label-row">
+                <span data-i18n="zm_carat_lbl">الوزن بالقيراط (Carat Weight)</span>
+                <span id="zumurrud-carat-val" class="highlight-val">3.50 ct</span>
+              </div>
+              <input id="zumurrud-carat-slider" type="range" min="0.50" max="15.00" step="0.25" value="3.50" class="luxury-slider" />
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="zm_color_lbl">درجة نقاء اللون (Color)</label>
+              <select id="zumurrud-color-select" class="luxury-select">
+                <option value="D">D (Colorless Exceptional - أعلى تصنيف)</option>
+                <option value="E">E (Colorless)</option>
+                <option value="F">F (Colorless Rare)</option>
+                <option value="G">G (Near Colorless)</option>
+                <option value="H">H (Warm White)</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="zm_clarity_lbl">مستوى الصفاء (Clarity)</label>
+              <select id="zumurrud-clarity-select" class="luxury-select">
+                <option value="FL">FL (Flawless - نقي تماماً)</option>
+                <option value="IF">IF (Internally Flawless)</option>
+                <option value="VVS1">VVS1 (Very Very Slightly Included)</option>
+                <option value="VVS2">VVS2</option>
+                <option value="VS1">VS1</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="zm_cut_lbl">جودة الصقل والقطع (Cut)</label>
+              <select id="zumurrud-cut-select" class="luxury-select">
+                <option value="Ideal">Ideal Cut (أقصى بريق ونار بصرية)</option>
+                <option value="Excellent">Excellent Cut</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="zm_metal_lbl">معدن الصياغة الملكي</label>
+              <select id="zumurrud-metal-select" class="luxury-select">
+                <option value="Platinum-950">Platinum 950 Solid</option>
+                <option value="18k-Yellow-Gold">18K Sovereign Yellow Gold</option>
+                <option value="18k-Rose-Gold">18K Soft Rose Gold</option>
+              </select>
+            </div>
+
+            <div class="input-item full-width">
+              <label data-i18n="zm_setting_lbl">شكل التركيب والحماية</label>
+              <select id="zumurrud-setting-select" class="luxury-select">
+                <option value="Royal-Solitaire">Royal Solitaire 6-Prong Iconic Crown</option>
+                <option value="Crown-Halo">Micro-Pavé Diamond Halo</option>
+                <option value="Three-Stone-Trilogy">Three-Stone Trilogy (Past, Present, Future)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl" data-i18n="zm_valuation_lbl">Rapaport / GIA Valuation</span>
+              <span id="zumurrud-total-val" class="action-price">725,000 SAR</span>
+            </div>
+            <button id="zumurrud-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="btn_add_to_vault">إضافة إلى الحقيبة السيادية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 6: SHAHEEN ROYAL FALCONRY -->
+    <section id="sector-shaheen" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">06</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">شَـاهين <span class="sector-en">SHAHEEN</span></h3>
+          <p class="sector-tagline" data-i18n="sh_dive_title">صقور القنص الملكية ورادار الانقضاض التكتيكي</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Aerodynamic Radar Telemetry Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-radar"></i> <span data-i18n="sh_radar_title">رادار الرصد الحي وتتبع الصقر</span></h4>
+            <span class="live-tag">390+ KM/H</span>
+          </div>
+
+          <div class="canvas-center-wrap">
+            <canvas id="shaheen-radar-canvas" width="340" height="280"></canvas>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label-row">
+              <span data-i18n="sh_altitude_slider">ارتفاع بدء الانقضاض (متر)</span>
+              <span id="shaheen-alt-val" class="highlight-val">850 m</span>
+            </div>
+            <input id="shaheen-alt-slider" type="range" min="200" max="1500" step="50" value="850" class="luxury-slider" />
+          </div>
+
+          <div class="telemetry-grid">
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="sh_speed_calc">السرعة القصوى</span>
+              <span id="shaheen-speed-val" class="tel-val gold">388 km/h</span>
+            </div>
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="sh_gforce_calc">قوى الجاذبية (G-Force)</span>
+              <span id="shaheen-gforce-val" class="tel-val cyan">11.4 G</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Digital Falcon Passport & Expedition Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-feather-pointed"></i> <span data-i18n="sh_passport_title">جواز سفر الصقر البيومتري الإلكتروني</span></h4>
+          </div>
+
+          <div class="falcon-passport-display">
+            <div class="passport-header">
+              <i class="fa-solid fa-shield-heart"></i>
+              <span>KINGDOM OF SAUDI ARABIA • ROYAL FALCON PASSPORT</span>
+            </div>
+            <div class="passport-body">
+              <div><strong>Name:</strong> صقر شاهين بحري نادر (الجساس)</div>
+              <div><strong>Species:</strong> Pure Marine Peregrine (Falco peregrinus)</div>
+              <div><strong>Wing Span:</strong> 112 cm • <strong>Weight:</strong> 980 g</div>
+              <div><strong>Ring Serial:</strong> ROYAL-SA-88102</div>
+              <div><strong>Biometric Microchip:</strong> BIO-WING-9821-X</div>
+            </div>
+          </div>
+
+          <div class="control-group" style="margin-top: 20px;">
+            <label>باقة رحلة القنص الصحراوية الخاصة</label>
+            <select id="shaheen-tier-select" class="luxury-select">
+              <option value="Royal-RubAlKhali">مخيم الربع الخالي الملكي الفاخر (اتصال أقمار صناعية + قناصين محترفين)</option>
+              <option value="AlUla-Sanctuary">محمية العلا الطبيعية الخاصة</option>
+              <option value="Nafud-HighSpeed">مضمار النفود الكبير للسرعات العالية</option>
+            </select>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Expedition & Passport</span>
+              <span id="shaheen-cost-val" class="action-price">420,000 SAR</span>
+            </div>
+            <button id="shaheen-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="sh_passport_btn">إصدار جواز الصقر وبطاقة الشريحة</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 7: QASSAB ROYAL BISHT ATELIER -->
+    <section id="sector-qassab" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">07</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">قَصّاب <span class="sector-en">QASSAB</span></h3>
+          <p class="sector-tagline" data-i18n="qs_fabric_title">محترف البشوت الحساوية والزري المذهب الملكي</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Visual Collar Embroidery Canvas Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-vest-patches"></i> <span data-i18n="qs_collar_title">المحاكاة المرئية لطوق الهيلة والبروج المذهب</span></h4>
+            <span class="live-tag">24K GOLD THREAD</span>
+          </div>
+
+          <div class="canvas-center-wrap">
+            <canvas id="qassab-collar-canvas" width="400" height="260"></canvas>
+          </div>
+          <p class="canvas-caption">خيوط الزري الألماني المطلي بالذهب الخالص مع تمثيل دقيق للهيلة والبروج الحساوية</p>
+
+          <div class="artisan-seal-box">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <strong>ختم الصنعة الحرفي المعتمد:</strong>
+              <span>حياكة يدوية أصيلة - الأحساء التاريخية</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bisht Customizer & Measurements Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-scissors"></i> <span data-i18n="qs_fabric_title">تفصيل البشت الملكي المخصص</span></h4>
+          </div>
+
+          <div class="card-inputs-grid">
+            <div class="input-item">
+              <label data-i18n="qs_fabric_lbl">خامة القماش الفاخر</label>
+              <select id="qassab-fabric-select" class="luxury-select">
+                <option value="summer-wool">صوف صيفي ناعم (غاط ياباني ممتاز)</option>
+                <option value="japanese-deluxe">ديلوكس ياباني فاحم السواد</option>
+                <option value="najfi-handmade">غزل نجفي يدوي أصيل مهدى للملوك</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="qs_darb_lbl">طراز الدربوية الملكية</label>
+              <select id="qassab-darb-select" class="luxury-select">
+                <option value="malaki-royal">دربوية ملكية عريضة (أميرية)</option>
+                <option value="mutawasa-refined">دربوية متوسعة دقيقة وأنيقة</option>
+                <option value="mukhmas-heritage">مخمس تراثي أصيل</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="qs_zari_lbl">نوع خيوط الزري المذهب</label>
+              <select id="qassab-zari-select" class="luxury-select">
+                <option value="pure-gold-24k">ذهب خالص عيار 24 قيراط (أعلى درجات الفخامة)</option>
+                <option value="german-18k-gold">زري ألماني مذهب عيار 18 قيراط نخب أول</option>
+                <option value="french-silver-gilt">فضة فرنسية مذهبة</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="qs_color_lbl">لون البشت الملكي</label>
+              <select id="qassab-color-select" class="luxury-select">
+                <option value="royal-black">أسود ملكي فاحم</option>
+                <option value="cream-oud">بيج عودي فاخر</option>
+                <option value="havana-camel">أشقر حساوي (هافانا)</option>
+                <option value="midnight-navy">كحلي ليلي داكن</option>
+              </select>
+            </div>
+
+            <div class="input-item full-width">
+              <div class="control-label-row">
+                <span data-i18n="qs_height_lbl">طول البشت (سم)</span>
+                <span id="qassab-height-val" class="highlight-val">160 cm</span>
+              </div>
+              <input id="qassab-height-slider" type="range" min="140" max="180" step="1" value="160" class="luxury-slider" />
+            </div>
+          </div>
+
+          <div class="telemetry-grid">
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="qs_hours_lbl">ساعات الحياكة اليدوية</span>
+              <span id="qassab-hours-val" class="tel-val cyan">220 ساعة يد</span>
+            </div>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Artisan Masterpiece</span>
+              <span id="qassab-price-val" class="action-price">85,000 SAR</span>
+            </div>
+            <button id="qassab-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="btn_add_to_vault">إضافة إلى الحقيبة السيادية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 8: MAAEDAH HAUTE GASTRONOMY -->
+    <section id="sector-maaedah" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">08</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">مَـائـدة <span class="sector-en">MAAEDAH</span></h3>
+          <p class="sector-tagline" data-i18n="md_seat_title">فن الطهي الرفيع ومائدة الشيف الملكية</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Sensory Flavor Radar Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-chart-pie"></i> <span data-i18n="md_radar_title">رادار التوازن الحسي للنكهات (Sensory Profile)</span></h4>
+            <span class="live-tag">7 COURSES</span>
+          </div>
+
+          <div class="canvas-center-wrap">
+            <canvas id="maaedah-radar-canvas" width="340" height="280"></canvas>
+          </div>
+          <p class="canvas-caption">توازن النكهات الحسية: الأومامي، الحموضة، الحلاوة، الملوحة، الملمس، والعطر الزكي</p>
+
+          <div class="vip-ticket-preview">
+            <i class="fa-solid fa-qrcode"></i>
+            <div>
+              <strong>VIP Entrance Pass:</strong> MKH-CHEF-7729-VIP
+            </div>
+          </div>
+        </div>
+
+        <!-- Floorplan & Tasting Menu Builder Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-utensils"></i> <span data-i18n="md_menu_title">تصميم قائمة التذوق ذات الأطباق السبعة</span></h4>
+          </div>
+
+          <!-- Clickable Interactive Floorplan -->
+          <div class="floorplan-layout">
+            <div class="floorplan-seat active" data-zone="Royal-Sovereign-Booth">
+              <i class="fa-solid fa-crown"></i>
+              <span data-i18n="md_seat_vip">المقصورة الملكية</span>
+            </div>
+            <div class="floorplan-seat" data-zone="Master-Chef-Counter">
+              <i class="fa-solid fa-fire-burner"></i>
+              <span data-i18n="md_seat_counter">منضدة الشيف</span>
+            </div>
+            <div class="floorplan-seat" data-zone="Al-Majlis-Salon">
+              <i class="fa-solid fa-couch"></i>
+              <span data-i18n="md_seat_majlis">الصالون الخاص</span>
+            </div>
+          </div>
+
+          <div class="card-inputs-grid">
+            <div class="input-item">
+              <label>الموقع المحجوز</label>
+              <select id="maaedah-zone-select" class="luxury-select">
+                <option value="Royal-Sovereign-Booth">المقصورة الملكية السيادية (Royal Booth)</option>
+                <option value="Master-Chef-Counter">منضدة الشيف التفاعلية (Chef Counter)</option>
+                <option value="Al-Majlis-Salon">الصالون الخاص (Private Salon)</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <div class="control-label-row">
+                <span>عدد الضيوف</span>
+                <span id="maaedah-guests-val" class="highlight-val">6 أشخاص</span>
+              </div>
+              <input id="maaedah-guests-slider" type="range" min="2" max="12" step="1" value="6" class="luxury-slider" />
+            </div>
+
+            <div class="input-item full-width menu-course-list">
+              <div class="course-row"><span>1. Amuse-Bouche:</span> كافيار بيلوغا إمبيريال وتارت الكمأة السوداء</div>
+              <div class="course-row"><span>2. Cold Starter:</span> كارباتشيو سمك الناجل الحجازي مع ماء الورد والذهب</div>
+              <div class="course-row"><span>3. Sea Catch:</span> استاكوزا البحر الأحمر المشوية على فحم الأراك</div>
+              <div class="course-row"><span>4. Main Cut:</span> شريحة واغيو A5 معتقة بدهن العود والعنبر</div>
+              <div class="course-row"><span>5. Grand Finale:</span> كرة الذهب عيار 24 بحشوة شوكولاتة التمر والزعفران</div>
+            </div>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Banquet Total</span>
+              <span id="maaedah-total-val" class="action-price">48,000 SAR</span>
+            </div>
+            <button id="maaedah-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="md_ticket_btn">إصدار تذكرة المأدبة الملكية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 9: ATHEER PRIVATE AVIATION -->
+    <section id="sector-atheer" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">09</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">أَثِـير <span class="sector-en">ATHEER</span></h3>
+          <p class="sector-tagline" data-i18n="at_calc_title">أسطول الطيران الخاص والرحلات العابرة للقارات</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Aircraft Fleet Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-plane"></i> <span>Executive Fleet Overview</span></h4>
+            <span class="live-tag">MACH 0.925</span>
+          </div>
+
+          <div class="fleet-showcase">
+            <div class="fleet-item active">
+              <i class="fa-solid fa-plane-up"></i>
+              <div>
+                <strong>Gulfstream G700</strong>
+                <span>7,750 NM Range • 19 Passengers • Ultra-Low Cabin Altitude</span>
+              </div>
+            </div>
+            <div class="fleet-item">
+              <i class="fa-solid fa-plane-up"></i>
+              <div>
+                <strong>Bombardier Global 7500</strong>
+                <span>7,700 NM Range • 4 True Living Spaces • Master Suite Bed</span>
+              </div>
+            </div>
+            <div class="fleet-item">
+              <i class="fa-solid fa-plane-up"></i>
+              <div>
+                <strong>Dassault Falcon 10X</strong>
+                <span>7,500 NM Range • Widest & Tallest Dedicated Cabin</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="telemetry-grid">
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="at_dist_calc">المسافة الجوية المباشرة</span>
+              <span id="atheer-dist-val" class="tel-val cyan">4,420 km</span>
+            </div>
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="at_duration_calc">زمن الرحلة المحسوب</span>
+              <span id="atheer-dur-val" class="tel-val gold">5.2 ساعات</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Great-Circle Flight Calculator Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-calculator"></i> <span data-i18n="at_calc_title">حاسبة الطيران الخاص عبر القارات</span></h4>
+          </div>
+
+          <div class="card-inputs-grid">
+            <div class="input-item">
+              <label data-i18n="at_origin_lbl">مطار الإقلاع</label>
+              <select id="atheer-origin-select" class="luxury-select">
+                <option value="RUH">الرياض صالة الطيران الخاص (RUH)</option>
+                <option value="DWC">دبي وورلد سنترال VIP (DWC)</option>
+                <option value="LBG">باريس لو بورجيه (LBG)</option>
+                <option value="LTN">لندن لوتون VIP (LTN)</option>
+                <option value="GVA">جنيف كوانتران (GVA)</option>
+                <option value="HND">طوكيو هانيدا التنفيذي (HND)</option>
+                <option value="TEB">نيويورك تيتربورو (TEB)</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="at_dest_lbl">مطار الهبوط الدولي</label>
+              <select id="atheer-dest-select" class="luxury-select">
+                <option value="LBG">باريس لو بورجيه (LBG)</option>
+                <option value="LTN">لندن لوتون VIP (LTN)</option>
+                <option value="GVA">جنيف كوانتران (GVA)</option>
+                <option value="RUH">الرياض صالة الطيران الخاص (RUH)</option>
+                <option value="DWC">دبي وورلد سنترال VIP (DWC)</option>
+                <option value="HND">طوكيو هانيدا التنفيذي (HND)</option>
+                <option value="TEB">نيويورك تيتربورو (TEB)</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label data-i18n="at_fleet_lbl">طراز الطائرة الخاصة</label>
+              <select id="atheer-fleet-select" class="luxury-select">
+                <option value="Gulfstream-G700">Gulfstream G700</option>
+                <option value="Bombardier-Global-7500">Bombardier Global 7500</option>
+                <option value="Dassault-Falcon-10X">Dassault Falcon 10X</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <div class="control-label-row">
+                <span data-i18n="at_pax_lbl">عدد الركاب</span>
+                <span id="atheer-pax-val" class="highlight-val">8 VIPs</span>
+              </div>
+              <input id="atheer-pax-slider" type="range" min="1" max="18" step="1" value="8" class="luxury-slider" />
+            </div>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Charter Quotation</span>
+              <span id="atheer-total-val" class="action-price">263,400 SAR</span>
+            </div>
+            <button id="atheer-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="at_quote_btn">إصدار عرض سعر الطيران</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTOR 10: IWAN ULTRA-LUXURY ESTATES -->
+    <section id="sector-iwan" class="sector-container sector-card-reveal">
+      <div class="sector-header">
+        <div class="sector-num">10</div>
+        <div class="sector-titles">
+          <h3 class="sector-name">إِيـوان <span class="sector-en">IWAN</span></h3>
+          <p class="sector-tagline" data-i18n="iw_estate_title">العقارات السيادية الفاخرة والجزر الخاصة</p>
+        </div>
+      </div>
+
+      <div class="sector-grid">
+        <!-- Interactive 3-Phase Skyline Simulator Card -->
+        <div class="luxury-tilt-card feature-card border-beam">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-city"></i> <span data-i18n="iw_skyline_title">محاكي إطلالة الأفق البانورامية (Skyline Simulator)</span></h4>
+          </div>
+
+          <div class="skyline-controls">
+            <button class="iwan-phase-btn" data-phase="day"><i class="fa-solid fa-sun"></i> <span data-i18n="iw_time_day">نهار</span></button>
+            <button class="iwan-phase-btn" data-phase="sunset"><i class="fa-solid fa-cloud-sun"></i> <span data-i18n="iw_time_sunset">غروب ذهبي</span></button>
+            <button class="iwan-phase-btn active" data-phase="night"><i class="fa-solid fa-moon"></i> <span data-i18n="iw_time_night">ليل ونجوم</span></button>
+          </div>
+
+          <!-- Dynamic Visual Skyline Container -->
+          <div id="iwan-skyline-box" class="skyline-simulator phase-night">
+            <div class="skyline-towers">
+              <div class="tower t1"></div>
+              <div class="tower t2"></div>
+              <div class="tower t-kingdom"></div>
+              <div class="tower t3"></div>
+              <div class="tower t4"></div>
+            </div>
+          </div>
+
+          <div class="telemetry-grid">
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="iw_yield_lbl">صافي العائد الإيجاري</span>
+              <span id="iwan-yield-val" class="tel-val cyan">6.5%</span>
+            </div>
+            <div class="tel-item">
+              <span class="tel-lbl" data-i18n="iw_roi_lbl">عائد 10 سنوات المتوقع</span>
+              <span id="iwan-roi-val" class="tel-val gold">+172.5%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Institutional ROI & Yield Calculator Card -->
+        <div class="luxury-tilt-card feature-card">
+          <div class="card-top">
+            <h4 class="card-heading"><i class="fa-solid fa-building-columns"></i> <span data-i18n="iw_estate_title">حاسبة الجدوى الاستثمارية للعقارات</span></h4>
+          </div>
+
+          <div class="card-inputs-grid">
+            <div class="input-item full-width">
+              <label data-i18n="iw_type_lbl">نوع الأصل العقاري الفاخر</label>
+              <select id="iwan-estate-select" class="luxury-select">
+                <option value="Sindalah-Water-Villa">Sindalah Island Overwater Villa (NEOM) - 68,000,000 SAR</option>
+                <option value="Riyadh-Sky-Penthouse">Riyadh KAFD Sky-Penthouse - 45,000,000 SAR</option>
+                <option value="RedSea-Private-Island">Red Sea Archipelago Private Island - 120,000,000 SAR</option>
+                <option value="AlUla-Canyon-Estate">Al-Ula Hidden Canyon Sovereign Villa - 52,000,000 SAR</option>
+              </select>
+            </div>
+
+            <div class="input-item full-width">
+              <div class="control-label-row">
+                <span data-i18n="iw_downpay_lbl">الدفعة الأولى النقدية (%)</span>
+                <span id="iwan-downpay-val" class="highlight-val">40% (27,200,000 SAR)</span>
+              </div>
+              <input id="iwan-downpay-slider" type="range" min="20" max="100" step="5" value="40" class="luxury-slider" />
+            </div>
+          </div>
+
+          <div class="roi-metrics-box">
+            <div class="roi-row">
+              <span data-i18n="iw_caprate_lbl">معدل الرسملة (Cap Rate):</span>
+              <strong id="iwan-caprate-val" class="cyan">6.5%</strong>
+            </div>
+            <div class="roi-row">
+              <span>القيمة التقديرية بعد 10 سنوات:</span>
+              <strong id="iwan-proj-val" class="gold">140,150,000 SAR</strong>
+            </div>
+          </div>
+
+          <div class="card-action-bar">
+            <div class="action-price-wrap">
+              <span class="action-lbl">Asset Valuation</span>
+              <span id="iwan-price-val" class="action-price">68,000,000 SAR</span>
+            </div>
+            <button id="iwan-add-vault-btn" class="btn-gold-action">
+              <i class="fa-solid fa-plus"></i> <span data-i18n="btn_add_to_vault">إضافة إلى الحقيبة السيادية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="sovereign-footer">
+    <div class="footer-container">
+      <div class="footer-crest">
+        <i class="fa-solid fa-crown"></i>
+      </div>
+      <p class="footer-line">
+        <span data-i18n="footer_copy">جميع الحقوق محفوظة للمنظومة © 2026 • تصميم وتطوير وهندسة معمارية بواسطة</span>
+        <strong class="author-highlight" data-i18n="footer_owner">أ. طارق ابوعشي</strong>
+      </p>
+      <p class="footer-subtext" data-i18n="footer_sub">
+        منظومة حصرية سيادية مبنية بأحدث معايير الويب الفائق والأداء المعماري المتطور.
+      </p>
+    </div>
+  </footer>
+
+  <!-- SOVEREIGN CONCIERGE DRAWER (SLIDE-OVER VAULT) -->
+  <div id="vault-backdrop" class="drawer-backdrop"></div>
+  <aside id="vault-drawer" class="vault-drawer">
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <i class="fa-solid fa-vault"></i>
+        <div>
+          <h3 data-i18n="nav_vault">الحقيبة والخزينة السيادية</h3>
+          <span id="vault-count-text" class="drawer-count">0 طلب</span>
+        </div>
+      </div>
+      <button id="vault-close-btn" class="drawer-close" title="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Scrollable Items List -->
+    <div id="vault-items-list" class="drawer-items-list">
+      <!-- Injected dynamically -->
+    </div>
+
+    <!-- Drawer Summary & Print Actions -->
+    <div class="drawer-footer">
+      <div class="drawer-total-box">
+        <span>إجمالي القيمة التقديرية للمنظومة:</span>
+        <strong id="vault-total-value">0 SAR</strong>
+      </div>
+      <div class="drawer-actions-row">
+        <button id="print-dossier-btn" class="btn-print-dossier">
+          <i class="fa-solid fa-print"></i> <span data-i18n="btn_print_dossier">طباعة الملف التنفيذي VIP Dossier</span>
+        </button>
+        <button id="vault-clear-btn" class="btn-clear-vault" title="Clear all selections">
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- PRINTABLE MASTER EXECUTIVE VIP DOSSIER (Hidden on screen, visible during window.print()) -->
+  <div id="dossier-print-container" class="print-only"></div>
+
+</body>
+</html>
